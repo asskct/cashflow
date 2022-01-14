@@ -1,0 +1,27 @@
+{
+  "name": "basico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "r.js -o build.js",
+    "compress": "terser main-build.js --compress --mangle[builtins] --output cashflow.js"
+  },
+  "keywords": [
+    "requirejs",
+    "jsx",
+    "plugin"
+  ],
+  "author": "Antonio Soares <asskct@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-standalone": "^6.26.0",
+    "requirejs": "^2.3.6",
+    "terser": "^5.10.0"
+  },
+  "dependencies": {}
+}
